@@ -1,0 +1,8 @@
+name = "CSV (Semicolon)"
+grammar = "scsv"
+path_suffixes = ["scsv"]
+brackets = [
+    { start = "\"", end = "\"", close = true, newline = false, not_in = [
+        "text",
+    ] },
+]

@@ -1,19 +1,7 @@
-; Literals
-(boolean) @constant.builtin.boolean
+(text) @string
 [
-  (integer)
+  (number)
   (float)
-  (hex)
-] @constant.numeric
-[
-  (null)
-  (na)
-] @constant.builtin
-
-(string) @string
-
-(escape_sequence) @constant.character.escape
-
-; Punctuation
-(delimiter) @punctuation.delimiter
-(quote) @punctuation.bracket
+] @number
+(boolean) @boolean
+"," @punctuation.delimiter
